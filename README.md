@@ -14,6 +14,12 @@ yarn add vue-culqi-checkout
 npm install vue-culqi-checkout
 ```
 
+## Configure the examples
+
+Replace `INSERTE_SU_LLAVE_PUBLICA` with your own Culqi test public key
+(`pk_test_...`). Never commit credentials or put a private key in frontend code.
+Checkout interacts with Culqi services, so use test credentials for testing.
+
 ## Import
 
 javascript
